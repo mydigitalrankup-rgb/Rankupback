@@ -25,6 +25,23 @@ console.log("JWT SECRET:", process.env.JWT_SECRET);
 //     allowedHeaders: ['Content-Type', 'Authorization'],
 // }));
 
+const clientOrigin = process.env.CLIENT_ORIGIN
+  ? process.env.CLIENT_ORIGIN.split(",")
+  : ["http://localhost:5173", "https://glinthivecreations.com"];
+
+app.use(cors({
+  origin: function (origin, callback) {
+    if (!origin || clientOrigin.includes(origin)) {
+      callback(null, true);
+    } else {
+      callback(new Error("Not allowed by CORS"));
+    }
+  },
+  methods: ['GET', 'POST', 'PUT', 'DELETE', 'OPTIONS'],
+  allowedHeaders: ['Content-Type', 'Authorization'],
+  credentials: true
+}));
+
 
 app.use(express.json());
 
