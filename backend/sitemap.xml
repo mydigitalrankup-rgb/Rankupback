@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset
+      xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
+            http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+<!-- created with Free Online Sitemap Generator www.xml-sitemaps.com -->
+
+    <!-- Homepage -->
+
+<url>
+  <loc>https://glinthivecreations.com/</loc>
+  <lastmod>'01/29/2026 15:58:46'</lastmod>
+</url>
+
+  <!-- About Page -->
+
+    <url>
+        <loc>https://glinthivecreations.com/about</loc>
+        <lastmod>'01/29/2026 15:58:46'</lastmod>
+    </url>
+
+  <!-- What we do -->
+
+    <url>
+        <loc>https://glinthivecreations.com/WhatWeDo</loc>
+        <lastmod>'01/29/2026 15:58:46'</lastmod>
+    </url>
+
+  <!-- Portfolio -->
+
+
+    <url>
+        <loc>https://glinthivecreations.com/portfolio</loc>
+        <lastmod>'01/29/2026 15:58:46'</lastmod>
+    </url>
+
+  <!-- Blogs -->
+
+<url>
+  <loc>https://glinthivecreations.com/blogs</loc>
+  <lastmod>'01/29/2026 15:58:46'</lastmod>
+</url>
+
+</urlset>

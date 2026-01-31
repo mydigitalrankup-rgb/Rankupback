@@ -1,0 +1,6 @@
+User-agent: *
+    Disallow:
+    Disallow:/admin/login
+    Disallow:/admin/createadmin
+    Disallow:/admin/dashboard
+    Sitemap:https://glinthivecreations.com//sitemap.xml
